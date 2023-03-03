@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Footer from './scenes/Footer';
 import Home from './pages/Home';
 import MakePost from './pages/MakePost';
@@ -17,7 +17,9 @@ const App = () => {
           </Routes>
         </main>
       </BrowserRouter>
-      <Footer />
+      <div className='grid align-bottom'>
+        <Footer />
+      </div>
     </div>
 
   );

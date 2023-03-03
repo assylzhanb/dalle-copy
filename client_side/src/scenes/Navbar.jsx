@@ -9,7 +9,7 @@ const Navbar = () => {
 
             </Link>
             <h1 className='text-3xl font-opensans w-5/6'>My DALL-E copy</h1>
-            <Link to="/make-post" className="font-opensans font-medium bg-purple-600 text-white px-4 py-2 rounded-md">Generate</Link>
+            <a href='https://assylzhanb.github.io' className="font-opensans font-medium bg-purple-600 text-white px-4 py-2 rounded-md">About me</a>
         </header>
     )
 }
