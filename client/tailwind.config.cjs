@@ -1,10 +1,32 @@
+// /** @type {import('tailwindcss').Config} */
+
+// module.exports = {
+//   content: ['./src/**/*.{js,jsx}'],
+//   theme: {
+//     extend: {
+//       screens: {
+//         xs: '480px',
+//       },
+//       fontFamily: {
+//         inter: ['Inter var', 'sans-serif'],
+//       },
+//       boxShadow: {
+//         card: '0 0 1px 0 rgba(189,192,207,0.06),0 10px 16px -1px rgba(189,192,207,0.2)',
+//         cardhover: '0 0 1px 0 rgba(189,192,207,0.06),0 10px 16px -1px rgba(189,192,207,0.4)',
+//       },
+//     },
+//   },
+//   plugins: [],
+// };
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{js,jsx, ts, tsx}}'],
+  content: ['./src/**/*.{js,jsx}'],
   theme: {
     extend: {
       fontFamily: {
         inter: ['Inter var', 'sans-serif'],
+        opensans: ["Open Sans", "sans-serif"]
       },
       boxShadow: {
         card: '0 0 1px 0 rgba(189, 192,207,0.06),0 10px 16px -1px rgba(189,192,207,0.2)',
@@ -12,7 +34,17 @@ module.exports = {
       },
       screens: {
         xs: '480px',
-      }
+      },
+      colors: {
+        "deep-blue": "#010026",
+        blue: "#2CBCE9",
+        red: "#DC4492",
+        yellow: "#FDCC49",
+        grey: "#ededed",
+        "my-purple": "#6c567b",
+        "dark-grey": "#757575",
+        "opaque-black": "rgba(0,0,0,0.35)",
+      },
     },
   },
   plugins: [],
