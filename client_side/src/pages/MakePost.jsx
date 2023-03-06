@@ -99,14 +99,14 @@ const MakePost = () => {
 
                 <form className="mt-16 max-w-3xl" onSubmit={handleSubmit}>
                     <div className='flex flex-col gap-5'>
-                        <FormPlace
+                        {/* <FormPlace
                             labelName='Your Name'
                             type='text'
                             name='name'
                             placeholder="Elon Musk"
                             value={form.name}
                             handleChange={handleChange}
-                        />
+                        /> */}
                         <FormPlace
                             labelName="Prompt"
                             type="text"
